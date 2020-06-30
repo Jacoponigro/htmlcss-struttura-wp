@@ -4,16 +4,21 @@
   padding:0;
 }
 header{
-  height: 200px;
+  height: 100px;
   background-color: yellow;
   margin: 10px;
 }
 main{
   height: 500px;
 }
+main::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 .col-left{
   height:75%;
-  width: 25%;
+  width: 30%;
   background-color: #CC87DA;
   float: left;
   margin: 10px;
@@ -25,8 +30,21 @@ main{
   float:left;
   margin: 10px;
 }
+.col-right{
+  height:95%;
+  width:26%;
+  background-color:  #CC87DA;
+  float: left;
+  margin: 10px;
+}
+.double{
+  height: 50%;
+  width:100%;
+  margin:10px;
+}
+
 footer{
-  height:100px;
+  height:80px;
   background-color: #A4D2E1;
   margin:10px;
 }
