@@ -33,14 +33,13 @@ main::after{
 .col-right{
   height:95%;
   width:26%;
-  background-color:  #CC87DA;
   float: left;
-  margin: 10px;
 }
 .double{
-  height: 50%;
+  height:40%;
   width:100%;
   margin:10px;
+  background-color: #CC87DA;
 }
 
 footer{
