@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+header{
+  height: 200px;
+  background-color: yellow;
+  margin: 10px;
+}
+main{
+  height: 500px;
+}
+.col-left{
+  height:75%;
+  width: 25%;
+  background-color: #CC87DA;
+  float: left;
+  margin: 10px;
+}
+.col-centro{
+  width:40%;
+  height:98%;
+  background-color: #730671;
+  float:left;
+  margin: 10px;
+}
+footer{
+  height:100px;
+  background-color: #A4D2E1;
+  margin:10px;
+}
